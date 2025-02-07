@@ -1,0 +1,32 @@
+# scoring function and search settings
+scoring_function chemplp
+search_speed speed1
+
+
+# input
+protein_file /media/emilia/HDD/Documents/PL/p85/p85_rec.mol2 
+ligand_file /media/emilia/HDD/Documents/PL/p85/1/p85_1.mol2
+# output
+output_dir results1 
+write_protein_conformations 0
+#write_ranking_multi_mol2 1
+
+# write single mol2 files (e.g. for RMSD calculation)
+write_multi_mol2 1
+
+# binding site definition
+bindingsite_center 10.631 -60.854 -0.102727 
+bindingsite_radius 9 
+
+
+# cluster algorithm
+cluster_structures 10
+cluster_rmsd 2.0
+
+#water model
+water_molecule 13.7092 -60.1224 7.85174 0 0 
+water_molecule_definition water.mol2
+water_protein_hb_weight 0.0
+water_water_hb_weight 0.0
+water_enable_penalty 0.0
+
