@@ -103,5 +103,8 @@ Para esto, vamos a tener que correr el siguiente comando, uno por cada core:
 ```
 Path_to/PLANTS1.2_64bit --mode screen plantsconfig > target_n.log &
 ```
-
+##Automatizacion
+Aca vas a poder encontrar 2 codigos para automatizar las corridas y el post procesamiento (son dos porque el post procesamiento con y sin aguas es diferente):
+1. [Sin aguas](PL_myTry.ipynb)
+2. [Con aguas](PL_with_w.ipynb)
 
